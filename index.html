@@ -6,6 +6,10 @@
 </head>
 <body>
     <h1 id="one">Bitwise Operators in console</h1>
+    <p>
+        Array
+
+    </p>
     <script>
     var a=5;
     var b=4;
@@ -22,6 +26,23 @@
     console.log(`Left shift of a :${left_shift}`);
     console.log(document.getElementById('one').innerHTML="<i>Bitwise Operators in console</i>");
     // console.log(document.getElementById('two').innerText);
+    console.log("");
+
+    var arr=[1,2,3,4,5,6,7,8,9,100];
+    for(let i=0;i<10;i++)
+    {
+        console.log("Array elements are "+arr[i]);
+    }
+    for(let i=0;i<11;i++)
+    {
+        if(arr[i]%2==0)
+        {console.log("Even numbers are "+arr[i]);}
+    }    
+    console.log("");
+    var arr2=["solapur","pune","mumbai","sangli","spiti"];
+    for (let i=4;i>=0;i--)
+    console.log("cities is reverse order "+arr2[i]);
+
 
     </script>
 </body>
